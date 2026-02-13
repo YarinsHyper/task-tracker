@@ -51,24 +51,6 @@ The purpose of this project is to demonstrate:
 
 ---
 
-## Project Structure
-
-task-tracker/
-│
-├── public/              # Static assets
-├── src/
-│   ├── components/      # UI components
-│   ├── pages/           # App views
-│   ├── hooks/           # Custom hooks (if present)
-│   ├── utils/           # Helper functions
-│   ├── styles/          # Styling files
-│   └── App.tsx / App.js
-│
-├── package.json
-└── README.md
-
----
-
 ## Getting Started
 
 Install dependencies:
