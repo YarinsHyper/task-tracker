@@ -1,31 +1,142 @@
-# vue-task-tracker
+# Task Tracker — Demo Application
 
+A clean and structured **task management demo app** built to demonstrate application architecture, component structure, UI logic, and state management.
 
-### Install node_modules
-```
-npm install 
-```
+This project was created as a portfolio showcase and learning reference — not as a production or reusable product.
 
-### Compiles and hot-reloads for development
-```
-npm run backend
-npm run serve
-```
+---
 
-### Compiles and minifies for production
-```
+![Viewing Only](https://img.shields.io/badge/Usage-Viewing%20Only-red?style=for-the-badge)
+![No Reuse](https://img.shields.io/badge/Code-Reuse%20Prohibited-black?style=for-the-badge)
+![No Deployment](https://img.shields.io/badge/Deployment-Forbidden-important?style=for-the-badge)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-blue?style=for-the-badge)
+
+---
+
+## Overview
+
+The Task Tracker app simulates a real-world productivity application where users can manage tasks, track completion status, and interact with a structured interface.
+
+The purpose of this project is to demonstrate:
+
+* Component separation
+* UI state flow
+* Event handling
+* Data modeling
+* Clean project organization
+* Frontend architecture patterns
+
+---
+
+## Features
+
+* Create tasks
+* Delete tasks
+* Mark tasks as completed
+* Dynamic UI updates
+* State-driven rendering
+* Responsive layout
+* Clean component hierarchy
+
+> This is a demo implementation — backend persistence may be mocked or local only.
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript / TypeScript
+* Node.js (dev environment)
+* CSS / Tailwind (if used)
+
+---
+
+## Project Structure
+
+task-tracker/
+│
+├── public/              # Static assets
+├── src/
+│   ├── components/      # UI components
+│   ├── pages/           # App views
+│   ├── hooks/           # Custom hooks (if present)
+│   ├── utils/           # Helper functions
+│   ├── styles/          # Styling files
+│   └── App.tsx / App.js
+│
+├── package.json
+└── README.md
+
+---
+
+## Getting Started
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm start
+
+Open:
+
+http://localhost:3000
+
+---
+
+### Production Build
+
+Create optimized build:
+
 npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run production:
 
-### Install links for Vue and everything needed to run project on your pc
+npm run start
 
-- npm i vue-router@next
-- sudo npm i -g @vue/cli
-- sudo npm install -g @vue/cli 
-- sudo npm install -g vue      
-- npm install -D @vue/compiler-sfc  
-- yarn global add @vue/cli  
-- npm install vue@next      
+---
+
+## Learning Goals
+
+This project demonstrates how a frontend application should be structured in a scalable way:
+
+* Separation between UI and logic
+* Predictable state updates
+* Reusable component patterns
+* Maintainable folder structure
+* Readable code organization
+
+It is meant to represent how a real application would be organized — without unnecessary complexity.
+
+---
+
+## Usage Policy
+
+This repository is **NOT open source**.
+
+You are allowed to:
+
+* View the code
+* Learn from the implementation
+* Study the architecture
+
+You are NOT allowed to:
+
+* Copy the code
+* Reuse components
+* Recreate the project
+* Deploy the project
+* Publish modified versions
+* Use parts of the code in any project
+* Use commercially or privately
+
+---
+
+## Contact
+
+If you would like permission to use something from this project, contact me via GitHub.
+
+---
+
+© YarinsHyper — All Rights Reserved
